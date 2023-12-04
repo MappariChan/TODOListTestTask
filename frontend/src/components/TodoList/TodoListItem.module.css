@@ -1,0 +1,39 @@
+.item-container {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  border-top: 1px rgb(204, 204, 204) solid;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 10px;
+}
+
+.item-container:hover .actions {
+  display: flex;
+}
+
+.item-container h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.actions {
+  display: none;
+  justify-self: flex-end;
+  gap: 5px;
+}
+
+.actions button {
+  border: none;
+  background-color: transparent;
+  transition: background-color 200ms, color 200ms;
+}
+
+.actions button:hover {
+  background-color: rgb(232, 232, 232);
+}
+
+.actions button:active {
+  background-color: #015cb140;
+  color: #015cb1;
+}

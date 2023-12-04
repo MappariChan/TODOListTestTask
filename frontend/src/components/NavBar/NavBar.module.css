@@ -1,0 +1,40 @@
+.navigation {
+  background-color: #ebeff5;
+  padding: 20px;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation button {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  padding: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.navigation li {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.navigation li:has(.active) {
+  background-color: #015cb140;
+}
+
+.navigation li:has(.active) a {
+  color: #015cb1;
+}
+
+.navigation li:not(:has(.active)):hover {
+  background-color: #015cb11b;
+}

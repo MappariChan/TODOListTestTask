@@ -1,0 +1,23 @@
+.pages-container {
+  margin-inline: auto;
+}
+
+.pages-container button {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+}
+
+.pages-container button:hover {
+  background-color: rgb(232, 232, 232);
+}
+
+.pages-container button:active {
+  background-color: #015cb140;
+  color: #015cb1;
+}
+
+button.active {
+  background-color: #015cb140;
+  color: #015cb1;
+}
